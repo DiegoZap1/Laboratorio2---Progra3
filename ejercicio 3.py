@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 # Archivo
-df = pd.read_csv('Computo 2\Laboratorio 2\csv\BreakingBadData.csv')
+df = pd.read_csv('csv\BreakingBadData.csv')
 filtrotemporada = pd.to_numeric(df['Season'])
 filtroRating = pd.to_numeric(df['Rating'])
 

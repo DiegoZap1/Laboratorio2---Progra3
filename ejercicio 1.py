@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Archivo
-df = pd.read_csv('Computo 2\Laboratorio 2\csv\datos de clientes.csv')
+df = pd.read_csv('csv\Datos de clientes.csv')
 df['age'] = pd.to_numeric(df['age'])
 
 clientesde20a29 = df[(df['age'] >= 20) & (df['age'] <= 29)].shape[0] #51

@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Archivo
-df = pd.read_csv('Computo 2\Laboratorio 2\csv\Rendimiento de estudiantes.csv')
+df = pd.read_csv('csv\Rendimiento de estudiantes.csv')
 df['Hours_Studied'] = pd.to_numeric(df['Hours_Studied'])
 
 # Datos de horas
